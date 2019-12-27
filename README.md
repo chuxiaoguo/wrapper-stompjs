@@ -3,12 +3,14 @@
 [![NPM](https://nodei.co/npm/wrapper-stompjs.png)](https://nodei.co/npm/wrapper-stompjs/)
 ## 导入包
 
-1\. npm install --save sockjs-client@1.0.0
-2\. npm install --save stompjs@2.3.3
-3\. npm install --save wrapper-stompjs
+npm install --save sockjs-client@1.0.0
+npm install --save stompjs@2.3.3
+npm install --save wrapper-stompjs
 
 ## 在线demo
+
 在线演示：[click here](https://chuxiaoguo.github.io/wrapper-stompjs/.)
+
 github: [https://github.com/chuxiaoguo/wrapper-stompjs](https://github.com/chuxiaoguo/wrapper-stompjs)
 
 ## 介绍
