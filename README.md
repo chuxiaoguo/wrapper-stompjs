@@ -3,9 +3,9 @@
 [![NPM](https://nodei.co/npm/wrapper-stompjs.png)](https://nodei.co/npm/wrapper-stompjs/)
 ## 导入包
 
-npm install --save sockjs-client@1.0.0
-npm install --save stompjs@2.3.3
-npm install --save wrapper-stompjs
+1. npm install --save sockjs-client@1.0.0
+2. npm install --save stompjs@2.3.3
+3. npm install --save wrapper-stompjs
 
 ## 在线demo
 
@@ -34,7 +34,6 @@ WebSocket是一个消息架构,不强制使用任何特定的消息协议,它依
 4\. 调用destroyed销毁实例，并停止推送
 
 ```
-  
 import {WebSocketFactory} from 'wrapper-stompjs';
 
 const config = {
@@ -179,4 +178,15 @@ console.log(success);
 | onConnect() | ws连接成功的回调 |
 | pollSendHeartBeat() | 发送心跳 |
 | onError() | 推送异常 |
+
+## 注意
+
+* ERROR in ./node_modules/stompjs/lib/stomp-node.js Module not found: 
+Error: Can't resolve 'net' in 'D:\sky\iot-web\node_modules\stompjs\lib'
+
+解决办法 npm i net -S
+
+* sockjs-client
+
+必须指定版本为1.0.0
 
