@@ -1,6 +1,6 @@
 {
     "name": "wrapper-stompjs",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "a package, which wrappers stompjs with class, provide simple operation api",
     "main": "dist/wrapper-stompjs.umd.js",
     "module": "dist/wrapper-stompjs.es.js",
